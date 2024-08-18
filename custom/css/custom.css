@@ -1,3 +1,62 @@
-body{
-    background-color: rgb(33, 32, 32);
+body {
+ overflow: hidden;
+}
+
+.bg-home {
+    background-image: url('../../images/home_bg.png');
+    /* background-color: green; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: none;
+    height: 100vh;
+    padding-left: 5%;
+}
+
+.btn-menu {
+    background-color: #EF5A6F;
+    color: white;
+    margin-bottom: .75rem !important; 
+    margin-right: 3rem;  
+    width: 250px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: start;
+    border-radius: 16px;
+
+}
+
+.btn-menu:hover {
+    background-color: #EF5A6F;
+}
+
+ul.b {
+    list-style-type: none;
+    position: absolute;
+    right: 2%;
+    top: 15%;
+}
+
+.slogan{
+    margin-top: 15%;
+    color: white;
+    font-family: "Anton", "Bebas Neue", sans-serif;
+    font-weight:bolder;
+    font-size: 2.4rem;
+}
+
+.slogan span.c{
+    color: #EF5A6F;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.logo {
+    width: 75px; 
+    height: 75px;
+    position: relative;
 }
