@@ -4,7 +4,6 @@ body {
 
 .bg-home {
     background-image: url('../../images/home_bg.png');
-    /* background-color: green; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     max-width: none;
@@ -16,10 +15,10 @@ body {
     background-color: #EF5A6F;
     color: white;
     margin-bottom: .75rem !important; 
-    margin-right: 3rem;  
+    margin-right: 2.5rem;  
     width: 250px;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: normal;
     text-align: start;
     border-radius: 16px;
 
@@ -33,15 +32,15 @@ ul.b {
     list-style-type: none;
     position: absolute;
     right: 2%;
-    top: 15%;
+    top: 17%;
 }
 
 .slogan{
-    margin-top: 15%;
+    margin-top: 10%;
     color: white;
     font-family: "Anton", "Bebas Neue", sans-serif;
-    font-weight:bolder;
-    font-size: 2.4rem;
+    word-spacing: .5rem;
+    letter-spacing: .18rem;
 }
 
 .slogan span.c{
@@ -58,5 +57,16 @@ footer {
 .logo {
     width: 75px; 
     height: 75px;
-    position: relative;
+    padding-top: .2rem;
+}
+
+.logo-header{
+    display: flex;
+    padding-top: 3%;
+}
+
+header h2 {
+    padding-left: .5rem;
+    padding-top: .4rem;
+    font-family: "Anton", "Bebas Neue", sans-serif;
 }
