@@ -1,0 +1,13 @@
+body {
+    overflow: hidden;
+}
+
+.bg {
+    background-image: url('../../images/not-available.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-left: 30%;
+}
