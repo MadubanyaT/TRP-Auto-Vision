@@ -1,0 +1,23 @@
+body {
+    overflow: hidden;
+    color: white;
+}
+
+.bg-contact {
+    background-image: url('../../images/contact_bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: none;
+    height: 100vh;
+    backdrop-filter: blur(1px); 
+}
+
+span.fw-bold {
+ color: #EF5A6F;
+}
+
+.container {
+    position: relative;
+    top: 20%;
+    left: 10%;
+}

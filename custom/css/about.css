@@ -1,0 +1,39 @@
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.bg-about{
+    background-image: url('../../images/about_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: none;
+    height: 100vh;
+    padding-left: 5%;
+    margin: 0;
+    backdrop-filter: blur(2px);
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #EF5A6F;;
+}
+
+.about-info {
+    padding: 0 20% 10% 20%;
+}
+
+.about-text {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+

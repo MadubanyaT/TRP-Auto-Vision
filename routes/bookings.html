@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="../custom/css/booking.css" />
 </head>
 <body class="bg-booking">
-    <div class="container ">
-        <!--header-->
+    <!--header-->
+    <header>
 
-
-        <h1>Bookings</h1>
+    </header>
         <!--Details-->
         <div class="booking-div">
+            <h1>Bookings</h1>
             <form method="post">
                 <label>Full Name</label><br />
-                <input type="text" /><br />
-                <label>Cell Phone</label><br />
-                <input type="tel" /><br />
+                <input type="text" minlength="8" maxlength="100" required/><br />
+                <label >Cell Phone</label><br />
+                <input type="tel"  minlength="10" maxlength="10" required/><br />
                 <label>Car Make</label><br />
-                <input type="text" /><br />
+                <input minlength="1" type="text" required/><br />
                 <label>Description <span id="b-span">(optinal)</span></label><br />
-                <textarea rows="4" cols="50"></textarea>
+                <textarea maxlength="250"></textarea>
                 <div class="text-center mt-2">
-                    <input type="submit" />
+                    <button type="submit">Submit</button>
                 </div>
                
             </form>
